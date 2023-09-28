@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="register.html">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Login">
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+    <p>Forgot your password? <a href="reset.html">Reset it here</a>.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="login.html">
+        <label for="newUsername">Username:</label>
+        <input type="text" id="newUsername" name="newUsername" required><br><br>
+        
+        <label for="newPassword">Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required><br><br>
+        
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a>.</p>
+    <p>Forgot your password? <a href="reset.html">Reset it here</a>.</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset Page</title>
+</head>
+<body>
+    <h1>Reset Password</h1>
+    <form action="login.html">
+        <label for="resetEmail">Email:</label>
+        <input type="email" id="resetEmail" name="resetEmail" required><br><br>
+        
+        <input type="submit" value="Reset Password">
+    </form>
+    <p>Remember your password? <a href="login.html">Login here</a>.</p>
+    <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+</body>
+</html>
